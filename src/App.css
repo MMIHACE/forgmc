@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'fra-sans', sans-serif;
+}
+
+
+.Abubu{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+/* background-image: url('./mawuu/summit-coates-run-47-scaled.jpg'); */
+box-shadow: 0 0 20px 0 rgb(0, 0, 0, 0.4);
+/* clip-path: polygon(70.71% 10%); */
+}
+
+#bag{
+  background: transparent;
+  border: none;
+  border-bottom: solid 2px #f79f60;
+  outline: none;
+  width: 45vw;
+}
+
+#dunk{
+  background: transparent;
+  border: none;
+  border-bottom: solid 2px #f79f60;
+  outline: none;
+  width: 45vw;
+  
+}
+
+#asake{
+  display: block;
+  justify-content: center;
+  box-shadow: 0 0 20px 0 rgb(0, 0, 0, 0.4);
+  height: 40vh;
+  margin-left: 35%;
+  width:48vw;
+}
+
+#text{
+  display: block;
+  justify-content: center;
+  box-shadow: 0 0 20px 0 rgb(0, 0, 0, 0.4);
+  width: 48vw;
+  height: 40vh;
+  margin-left: 35%;
+  background-color: beige;
+ 
+}
+
+
+/* .Apop{
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vn;
+} */
+
+
+.Apop{
+  position: flex;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(0, 0, 0, 0.);
+  background-image:'mawuu\mansion.jpg' ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.1s;
+}
+
+.cls-btn{
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.main{
+  position: relative;
+  padding: 30px;
+  width: 200%;
+  max-width: 650px;
+  background-color: #fff;
+  box-shadow: 0 0 20px 0 rgb(0, 0, 0, 0.4);
+  
+  
+}

@@ -1,0 +1,150 @@
+/* .Jesu{
+    background-color: #282c34;
+    display: flex;
+      justify-content: space-between;
+      padding: 30px;
+      position: sticky;
+      top: 0;
+  } */
+  
+  /* .Jesu button{
+    border: none;
+    background-color: orange;
+    border-radius: 5px;
+    padding: 15px 0px;
+    cursor: pointer;
+    transition: .4s;
+    margin: 25px 30px 60px ;
+  
+}   */
+
+/* nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 35px;
+    font-size: 20px;
+    transition: .4s;
+  } */
+
+  /* .Uzi{
+    background-image: '.img//mawuu/mansion.jpg';
+    background-color: blanchedalmond;
+    margin-top: 30px;
+      justify-content: space-between;
+      padding: 30px;
+
+  } */
+
+  /* .Uzi button{
+    border: none;
+    background-color: orange;
+    border-radius: 5px;
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    margin-top: 5px;
+    margin-right: 35px;
+  } */
+
+.tems h2{
+    font-size: 40px;
+    text-align: center ;
+    color: #287a8c;
+    font-style: inherit;
+
+}
+
+.tems h1{
+    color: #666;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.tems button{
+    background-color: orange;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+   display: inline-block;
+   text-align: center;
+   width: 320px;
+   color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    background-position:50%; 
+    
+}
+
+.tems{
+    display: block;
+    background-color: aliceblue;
+    text-align: center;
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+    
+}
+
+body{
+  background:skyblue;
+}
+
+.card{
+  border: 1px solid white;
+  background: black;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 300px;
+  color: white;
+}
+
+.Og{
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 50px;
+  
+}
+
+.slick-slide > div{
+  margin: 0 10px;
+}
+
+
+.slick-list{
+  margin: 0 10px;
+
+}
+
+.card-top h1{
+  font-size: 1rem;
+  margin : 10px 20px;
+
+}
+
+.card-top > img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-bottom{
+ margin : 10px 20px;
+
+}
+
+#location{
+  position: relative;
+}
+#location::before{
+content: '';
+background: rgb(255, 61, 61,);
+position: absolute;
+top: calc(100% + 10px);
+left: 0;
+right: 0;
+height: 2px;
+}
+
+
